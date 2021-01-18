@@ -28,7 +28,7 @@ while(i<m && j<n)
 { if(a[i]<b[j])
 { c[k]=a[i];
 i++; }
-else if (b[j]<a[j])
+else if (b[j]<a[i])
 { c[k]=b[j];
 j++; }
 else {c[k]=a[i];
