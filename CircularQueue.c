@@ -57,9 +57,9 @@ while (1)
 break; }
 if (f==rear)
 { printf("element not found\n");
-break; } }//dont close while loop here
+break; } 
 f=(f+1)%n;
-pos=pos+1; }// it should close here
+pos=pos+1; } }
 void display(int *q)
 { if (front==-1)
 { printf("queue is empty\n");
